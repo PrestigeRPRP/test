@@ -43,7 +43,7 @@ AFRAME.registerComponent('play-on-near', {
   playVideo: function () {
     var video = document.getElementById('video1');
     video.play();
-    video.volume = 0.1; // Add this line to set the volume
+    video.volume = 1; // Add this line to set the volume
     video.addEventListener('ended', function () {
       video.pause();
     });
