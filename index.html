@@ -43,7 +43,7 @@ AFRAME.registerComponent('play-on-near', {
   playVideo: function () {
     var video = document.getElementById('video1');
     video.play();
-    video.volume = 0.07; // Add this line to set the volume
+    video.volume = 0.1; // Add this line to set the volume
     video.addEventListener('ended', function () {
       video.pause();
     });
@@ -63,7 +63,7 @@ AFRAME.registerComponent('play-on-near', {
 
     <audio id="music1" src="/pasilyo2.mp3" preload="auto"></audio>
 
-    <video id="video1" src="/Fuji.mp4" preload="auto" loop controls></video>
+    <video id="video1" src="Summer.mp4" preload="auto" controls></video>
 
   </a-assets>
   
